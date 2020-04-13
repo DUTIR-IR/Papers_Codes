@@ -1,7 +1,7 @@
 # RegionEmbedding
 MXNet implementation of ICLR 2018 paper: [A new method of region embedding for text classification](https://openreview.net/forum?id=BkSDMA36Z).
 
-Official implementation in [TensorFlow](https://github.com/text-representation/local-context-unit).
+Code mainly from [TensorFlow](https://github.com/text-representation/local-context-unit).
 
 ## 0.Notes
 
@@ -29,3 +29,8 @@ Note:
 - The running speed is much faster than the origin implementation in Tensorflow. 
   <br>The running time was tested on the model of context-word region embedding, which run roughly the same as the word-context region embedding. 
 - The code run on a Titan Xp GPU.
+
+
+## 3.Steps
+- Run data/data_pre.ipynb to get .ID files.
+- Run model.ipynb to get the results.
